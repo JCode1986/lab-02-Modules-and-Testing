@@ -1,7 +1,7 @@
-from series import fibonacci, lucas
+from series import fibonacci, lucas, sum_series
 import pytest
 
-# Fib Test
+#fib function Test
 #first index
 def test_one():
   expected = 0
@@ -37,7 +37,7 @@ def test_six():
   with pytest.raises(TypeError):  # Pass in the expected error
     fibonacci('String')
 
-#lucas test
+#lucas function test
 #first index
 def test_seven():
   expected = 2
@@ -60,3 +60,11 @@ def test_nine():
 def test_ten():
   with pytest.raises(TypeError):
     fibonacci('String')
+
+#sum series function test
+#twelve index
+def test_eleven():
+  expected = 144
+  actual = sum_series(12)
+  assert actual == expected
+

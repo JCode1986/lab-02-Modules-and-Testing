@@ -10,7 +10,7 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-def lucas(n):
+def lucas(n = None):
     if n < 0:
         return None
     elif n == 0:
@@ -19,3 +19,11 @@ def lucas(n):
         return 1
     else:
         return lucas(n - 1) + lucas(n - 2)
+
+def sum_series(a, b = 0, c = 1):
+    if a:
+        return fibonacci(a)
+    elif b == 2 and c == 1:
+        return lucas()
+
+print(sum_series(9, 2, 1))

@@ -8,6 +8,8 @@
 Create a function called fibonacci. The function should have one parameter n. The function should return the nth value in the fibonacci series.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Added functionality to add and delete some things.
+* 12-03-2019 2:30pm - completed fibonacci challenge
+* 12-03-2019 3:00pm - completed testing for fibonacci challenge
+* 12-03-2019 3:30pm - completed lucas challenge
+* 12-03-2019 4:00pm - completed testing for lucas challenge

@@ -21,9 +21,9 @@ def lucas(n = None):
         return lucas(n - 1) + lucas(n - 2)
 
 def sum_series(a, b = 0, c = 1):
+    if b == 2 and c == 1:
+        return lucas(a)
+    if b and c:
+        return lucas(a) + lucas(b)
     if a:
         return fibonacci(a)
-    elif b == 2 and c == 1:
-        return lucas()
-
-print(sum_series(9, 2, 1))

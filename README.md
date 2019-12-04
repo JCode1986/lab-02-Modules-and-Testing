@@ -1,21 +1,15 @@
 # lab-02-Modules-and-Testing
 
 **Author**: Joseph Hangarter
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+
+**Version**: 1.0.1
 
 ## Overview
-Create a function called fibonacci. The function should have one parameter n. The function should return the nth value in the fibonacci series.
-
-## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-
-## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. This is also an area which you can include any visuals; flow charts, example usage gifs, screen captures, etc.-->
-
-## API
-<!-- Provide detailed instructions for your applications usage. This should include any methods or endpoints available to the user/client/developer. Each section should be formatted to provide clear syntax for usage, example calls including input data requirements and options, and example responses or return values. -->
+* Create a function called fibonacci. The function should have one parameter n. The function should return the nth value in the fibonacci series.
+* Create a function called lucas that takes in one parameter and executes the same function as the fibonacci, but with the first index as 2, and second index as 1.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Added functionality to add and delete some things.
+* 12-03-2019 2:30pm - completed fibonacci challenge
+* 12-03-2019 3:00pm - completed testing for fibonacci challenge
+* 12-03-2019 3:30pm - completed lucas challenge
+* 12-03-2019 4:00pm - completed testing for lucas challenge

@@ -13,3 +13,4 @@
 * 12-03-2019 3:00pm - completed testing for fibonacci challenge
 * 12-03-2019 3:30pm - completed lucas challenge
 * 12-03-2019 4:00pm - completed testing for lucas challenge
+* 12-08-2019 9:55pm - completed sum series functionality and testing

@@ -68,3 +68,8 @@ def test_eleven():
   actual = sum_series(12)
   assert actual == expected
 
+#optional parameters added
+def test_twelve():
+  expected = 1309
+  actual = sum_series(12, 5, 6)
+  assert actual == expected  

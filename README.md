@@ -2,7 +2,7 @@
 
 **Author**: Joseph Hangarter
 
-**Version**: 1.0.1
+**Version**: 1.0.5
 
 ## Overview
 * Create a function called fibonacci. The function should have one parameter n. The function should return the nth value in the fibonacci series.
